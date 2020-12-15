@@ -1,23 +1,28 @@
 {
-    "name": "mvc_design",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.16.3",
-        "express-handlebars": "^3.0.0",
-        "mysql": "^2.16.0"
-    },
-    "devDependencies": {
-        "dotenv": "^8.2.0",
-        "express": "^4.17.1",
-        "express-handlebars": "^5.2.0",
-        "handlebars-helper-css": "^0.1.0",
-        "mysql": "^2.18.1"
-    }
+  "name": "ExpressHandlebars",
+  "version": "1.0.0",
+  "description": "![Screen shot of Questions and Read.me when generated](burgersnap.PNG);\r # My crazy Burger\r ![](https://img.shields.io/badge/license--green?style=for-the-badge&logo=github)\r ## Description\r This app lets you add new burger creation and givs you the option to eat or throw up any burger you've ate.\r ## Table of Contents\r [Installation](#Installation)",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcaro1993/ExpressHandlebars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcaro1993/ExpressHandlebars/issues"
+  },
+  "homepage": "https://github.com/jcaro1993/ExpressHandlebars#readme"
 }
